@@ -4,8 +4,41 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    open-pull-requests-limit: 2
+    cooldown:
+      default-days: 3
+    groups:
+      github-actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
 
   - package-ecosystem: uv
     directory: /
     schedule:
       interval: weekly
+    open-pull-requests-limit: 2
+    versioning-strategy: increase-if-necessary
+    cooldown:
+      semver-major-days: 30
+      semver-minor-days: 7
+      semver-patch-days: 2
+    groups:
+      python-tooling-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: pre-commit
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 1
+    groups:
+      pre-commit-hooks:
+        patterns:
+          - "*"
