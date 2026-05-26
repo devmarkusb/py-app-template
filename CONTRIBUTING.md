@@ -24,6 +24,10 @@ All commits must follow [Conventional Commits](https://www.conventionalcommits.o
 
 - uv run pytest --cov
 
+## Dependency audit
+
+- uv audit --preview-features audit --locked
+
 ## Notes
 
 - Ensure `.secrets.baseline` exists before running `pre-commit install` to avoid the detect-secrets hook blocking commits.
