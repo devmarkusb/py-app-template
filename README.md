@@ -16,7 +16,7 @@ See CHANGELOG.md for the PSR-managed changelog.
 
 Replace `OWNER` and `REPO` after forking. Static placeholders below link to this section until then.
 
-[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](#badges) [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#badges) [![PyPI](https://img.shields.io/badge/pypi-0.1.0-blue)](#badges) [![Python Versions](https://img.shields.io/badge/python-3.10--3.13-orange)](#badges) [![License](https://img.shields.io/badge/license-MIT-blue)](#badges)
+[![CI](https://img.shields.io/badge/ci-passing-brightgreen)](#badges) [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#badges) [![PyPI](https://img.shields.io/badge/pypi-0.1.0-blue)](#badges) [![Python Versions](https://img.shields.io/badge/python-3.11--3.13-orange)](#badges) [![License](https://img.shields.io/badge/license-MIT-blue)](#badges)
 
 ## First Steps (Rename checklist)
 

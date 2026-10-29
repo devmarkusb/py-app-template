@@ -2,7 +2,7 @@
 name = "py-app-template"
 version = "1.0.1"
 description = "A general-purpose Python project template"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
     { name = "Your Name", email = "your@email.com" },
 ]
@@ -25,7 +25,7 @@ dev = [
 
 [tool.ruff]
 line-length = 88
-target-version = "py310"
+target-version = "py311"
 src = ["src"]
 
 [tool.ruff.lint]
