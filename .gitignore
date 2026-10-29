@@ -44,3 +44,5 @@ Thumbs.db
 
 # Coverage XML
 coverage.xml
+
+# auto-merge wiring test
